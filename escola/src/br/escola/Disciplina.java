@@ -6,6 +6,13 @@ public class Disciplina {
     private String cargaHoraria;
     private String semestre;
 
+    public Disciplina(String nome, String sigla, String cargaHoraria, String semestre) {
+        this.nome = nome;
+        this.sigla = sigla;
+        this.cargaHoraria = cargaHoraria;
+        this.semestre = semestre;
+    }
+
     public String getNome() {
         return nome;
     }

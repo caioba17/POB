@@ -7,6 +7,14 @@ public class Aluno {
     private String matricula;
     private String email;
 
+    public Aluno(String nome, String cpf, String matricula, String email) {
+        super();
+        this.nome = nome;
+        this.cpf = cpf;
+        this.matricula = matricula;
+        this.email = email;
+    }
+
     public String getNome() {
         return nome;
     }

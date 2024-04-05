@@ -27,12 +27,19 @@ public class Main {
         disciplina.setNome("Programação Orientada a Objetos");
         disciplina.setSigla("POB");
         disciplina.setCargaHoraria("50 horas");
-        disciplina.setSemestre("Terceiro semestre");
+        disciplina.setSemestre("Terceiro");
 
         System.out.println(disciplina.getNome());
         System.out.println(disciplina.getSigla());
         System.out.println(disciplina.getCargaHoraria());
         System.out.println(disciplina.getSemestre());
+
+        Disciplina disciplina2 = new Disciplina("Estrutura de Dados", "ESD", "50 horas", "Terceiro" );
+
+        System.out.println(disciplina2.getNome());
+        System.out.println(disciplina.getSigla());
+        System.out.println(disciplina2.getCargaHoraria());
+        System.out.println(disciplina2.getSemestre());
 
     }
 }
