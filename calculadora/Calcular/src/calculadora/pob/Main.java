@@ -36,7 +36,7 @@ public class Main {
                     num2 = sc.nextDouble();
                 }
             }
-            
+
             switch (opc) {
 
                 case 1: System.out.println("\nResultado = " + calculadora.Soma(num1, num2));
